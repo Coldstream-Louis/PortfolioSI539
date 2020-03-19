@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon"/>
+
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
+    <title>SD Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159823257-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159823257-1');
+    </script>
+
+</head>
+<body>
+
+<a class = "skip" href="#skip">Skip to Main Content</a>
+
+<header>
+    <img src="images/Name.png" alt="logo" id = "logo">
+    <nav>
+        <ul class="nav_links">
+            <li class="nav_item"><a href="index.html">Home</a></li>
+            <li class="nav_item"><a href="about.html">About Me</a></li>
+            <li class="nav_item active"><a href="vis.html">Visualization</a></li>
+            <li class="nav_item"><a href="mobile.html">Mobile Design</a></li>
+            <li class="nav_item"><a href="web.html">Web Design</a></li>
+            <li class="nav_item"><a href="vr.html">VR Design</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="about" id="skip">
+    <img class="web_project" src="images/2020-vote.jpg" alt="cover image">
+
+    <div class="project_content">
+        <h1 class="Overview-flex">Project Overview</h1>
+        <p id="vis-intro">The 2020 United States presidential election is scheduled for Tuesday, November 3, 2020. It will be the 59th
+            quadrennial presidential election. However, the is not only one battle for candidates to fight if they want
+            to enter the White House at last. For many candidates, The election campaign has already begun one year ago.
+            In this page, I will provide some visualization to analyze the data for 2 primary parties and their candidates.
+            Trying to figure out the average PCT of each party every month, and who will be the most powerful challenger of Donald Trump.</p>
+        <div class="flex_container">
+            <div class="vr-flex-1">
+                <img src="images/vis1.png" alt="visualization 1" class="VR-EDU">
+            </div>
+            <div class="vr-flex-1">
+                <p>
+                    There are many democratic candidates who involved in the 2020 elections, but not all of them have strength
+                    to fight against Trump. We choose 3 most powerful democratic candidate, analyze their pct. 
+                </p><br>
+                <p>
+                    It is a little hard to tell who will face Trump in the final from this visualization. Both Sanders and
+                    Biden have chance to beat trump, but their PCTs are all not stable enough. In fact, according to the chart,
+                    every candidates list here could be the winner, since they all have advantage among others in a specific time period.
+                </p>
+            </div>
+            <div class="vr-flex-3">
+                <img src="images/vis2.png" alt="visualization 2" class="VR-EDU">
+            </div>
+            <div class="vr-flex-3">
+                <p>
+                    This Box Plot chart shows the min/max whiskers, that reflected the distribution of the PCT of every candidates.
+                </p><br>
+                <p>
+                    When you hover on the box, it will display the data for the candidate. There are totally 8 democratic candidates
+                    who have a higher median value of PCT, compared to Donald Trump. They are: Bernard Sanders, Elizabeth Warren,
+                    Joseph R. Biden JR., Michael Bloomberg, Michelle Obama, Nancy Pelosi, Oprah Winfrey, and Sherrod Brown.
+                </p><br>
+                <p>
+                    However, some of them have only a few data, which is not persuasive enough to prove they could win Trump.
+                </p>
+            </div>
+            <div class="vr-flex-2">
+                <img src="images/vis3.png" alt="visualization 3" class="VR-EDU">
+            </div>
+            <div class="vr-flex-2">
+                <img src="images/vis4.png" alt="visualization 4" class="VR-EDU">
+            </div>
+            <div class="vr-flex-3">
+                <p>
+                    This bar chart displays the average PCT of two parties(all candidates), as well the average PCT from Nov
+                    2018 to now. You can also let it displays the average value of the months you select with a interval selector.
+                </p><br>
+                <p>
+                    For now, the difference of 2 parties is very small. For the recent 3 month, the value is nearly same.
+                    Therefore, it is hard to tell which side will win at last.
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>University of Michigan School of Information <br/>
+        &copy; 2020 Shuyang Du, all rights reserved</p>
+    <a><img class="ssnLink" src="images/facebook.png" alt="facebook"></a>
+    <a><img class="ssnLink" src="images/github.png" alt="github"></a>
+    <a><img class="ssnLink" src="images/twitter.png" alt="twitter"></a>
+    <a><img class="ssnLink" src="images/linkedin.png" alt="linkedin"></a>
+</footer>
+</body>
+</html>
